@@ -28,7 +28,7 @@ class MainActivity : BaseActivity() {
 
     override fun setValues() {
 
-        Glide.with(mContext).load("https://img4.yna.co.kr/photo/cms/2019/05/02/02/PCM20190502000402370_P2.jpg").into(profileImg)
+        Glide.with(mContext).load("http://img4.yna.co.kr/photo/cms/2019/05/02/02/PCM20190502000402370_P2.jpg").into(profileImg)
 
     }
 
